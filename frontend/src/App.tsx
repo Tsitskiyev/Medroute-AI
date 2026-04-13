@@ -130,7 +130,7 @@ const cardStyle: React.CSSProperties = {
 
 const panelStyle: React.CSSProperties = {
   ...cardStyle,
-  padding: 25,
+  padding: 18,
 };
 
 const sidebarStyle: React.CSSProperties = {
