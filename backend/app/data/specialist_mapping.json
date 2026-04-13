@@ -1,0 +1,68 @@
+{
+  "chest pain": "Cardiologist",
+  "palpitations": "Cardiologist",
+  "fast heartbeat": "Cardiologist",
+  "slow heartbeat": "Cardiologist",
+  "high blood pressure": "Cardiologist",
+  "low blood pressure": "Cardiologist",
+  "leg swelling": "Cardiologist",
+
+  "shortness of breath": "Pulmonologist",
+  "cough": "Pulmonologist",
+  "dry cough": "Pulmonologist",
+  "productive cough": "Pulmonologist",
+  "wheezing": "Pulmonologist",
+
+  "headache": "Neurologist",
+  "severe headache": "Neurologist",
+  "speech difficulty": "Neurologist",
+  "one-sided weakness": "Neurologist",
+  "facial droop": "Neurologist",
+  "confusion": "Neurologist",
+  "seizure": "Neurologist",
+  "dizziness": "Neurologist",
+  "vision loss": "Neurologist",
+  "neck stiffness": "Neurologist",
+
+  "abdominal pain": "Gastroenterologist",
+  "nausea": "Gastroenterologist",
+  "vomiting": "Gastroenterologist",
+  "diarrhea": "Gastroenterologist",
+  "black stool": "Gastroenterologist",
+  "blood in stool": "Gastroenterologist",
+  "constipation": "Gastroenterologist",
+  "bloating": "Gastroenterologist",
+  "jaundice": "Gastroenterologist",
+
+  "painful urination": "Urologist",
+  "frequent urination": "Urologist",
+  "blood in urine": "Urologist",
+  "flank pain": "Urologist",
+
+  "rash": "Dermatologist",
+  "itching": "Dermatologist",
+  "hives": "Allergist",
+  "swelling of lips/tongue": "Emergency Physician",
+
+  "red eye": "Ophthalmologist",
+  "eye pain": "Ophthalmologist",
+  "blurred vision": "Ophthalmologist",
+
+  "spreading redness": "General Surgeon",
+  "swelling": "General Surgeon",
+  "pus": "General Surgeon",
+  "black tissue": "Emergency Physician",
+  "necrosis": "Emergency Physician",
+
+  "fever": "Therapist",
+  "fatigue": "Therapist",
+  "chills": "Therapist",
+  "weakness": "Therapist",
+  "dehydration signs": "Therapist",
+  "sore throat": "ENT Specialist",
+  "ear pain": "ENT Specialist",
+  "hearing loss": "ENT Specialist",
+
+  "loss of consciousness": "Emergency Physician",
+  "vomiting blood": "Emergency Physician"
+}

@@ -1,0 +1,22 @@
+[
+  ["chest pain", "shortness of breath"],
+  ["speech difficulty", "one-sided weakness"],
+  ["facial droop", "speech difficulty"],
+  ["facial droop", "one-sided weakness"],
+  ["loss of consciousness"],
+  ["seizure"],
+  ["vomiting blood"],
+  ["black tissue"],
+  ["necrosis"],
+  ["swelling of lips/tongue", "shortness of breath"],
+  ["severe headache", "speech difficulty"],
+  ["severe headache", "confusion"],
+  ["high blood pressure", "severe headache", "blurred vision"],
+  ["high blood pressure", "chest pain"],
+  ["high blood pressure", "shortness of breath"],
+  ["shortness of breath", "confusion"],
+  ["fever", "headache", "neck stiffness"],
+  ["black stool", "dizziness"],
+  ["blood in stool", "dizziness"],
+  ["vision loss", "red eye"]
+]
