@@ -1,7 +1,7 @@
 from typing import List, Set, Tuple
 
-from app.models import UrgencyLevel
-from app.services.knowledge_base import CONDITION_RULES, EMERGENCY_RULES, URGENT_RULES
+from ..models import UrgencyLevel
+from .knowledge_base import CONDITION_RULES, EMERGENCY_RULES, URGENT_RULES
 
 
 def detect_urgency(symptoms: Set[str]) -> Tuple[UrgencyLevel, str]:

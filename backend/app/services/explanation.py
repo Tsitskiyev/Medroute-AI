@@ -1,6 +1,6 @@
 from typing import List, Optional
 
-from app.models import UrgencyLevel
+from ..models import UrgencyLevel
 
 
 def build_explanation(

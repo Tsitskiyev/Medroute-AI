@@ -1,8 +1,8 @@
 import re
 from typing import List, Optional
 
-from app.services.knowledge_base import CANONICAL_SYMPTOMS, SYMPTOM_SYNONYMS
-from app.services.normalization import normalize_symptoms
+from .knowledge_base import CANONICAL_SYMPTOMS, SYMPTOM_SYNONYMS
+from .normalization import normalize_symptoms
 
 
 WORD_SPLIT_PATTERN = re.compile(r"[,\n;]+")

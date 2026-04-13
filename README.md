@@ -202,7 +202,7 @@ python -m app.services.train_pneumonia_model
 ```powershell
 cd backend
 .venv\Scripts\Activate.ps1
-python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 API: http://127.0.0.1:8000

@@ -1,6 +1,6 @@
 from typing import Set, Tuple
 
-from app.services.knowledge_base import SPECIALIST_MAPPING
+from .knowledge_base import SPECIALIST_MAPPING
 
 
 def choose_specialist(symptoms: Set[str]) -> Tuple[str, str]:

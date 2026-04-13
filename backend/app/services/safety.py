@@ -1,6 +1,6 @@
 from typing import Set
 
-from app.models import UrgencyLevel
+from ..models import UrgencyLevel
 
 
 EMERGENCY_KEYWORDS = {

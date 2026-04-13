@@ -1,6 +1,6 @@
 from typing import Iterable, List
 
-from app.services.knowledge_base import SYMPTOM_SYNONYMS
+from .knowledge_base import SYMPTOM_SYNONYMS
 
 
 def normalize_symptom(value: str) -> str:

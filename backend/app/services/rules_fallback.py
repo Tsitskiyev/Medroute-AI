@@ -1,10 +1,10 @@
 from typing import List, Optional
 
-from app.models import TriageMode, TriageResponse
-from app.services.explanation import build_explanation
-from app.services.extractor import extract_symptoms
-from app.services.routing import choose_specialist
-from app.services.triage import detect_urgency, rank_conditions
+from ..models import TriageMode, TriageResponse
+from .explanation import build_explanation
+from .extractor import extract_symptoms
+from .routing import choose_specialist
+from .triage import detect_urgency, rank_conditions
 
 
 def run_rules_fallback(

@@ -6,13 +6,13 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, File, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.models import TriageMode, TriageRequest, TriageResponse, XRayAnalysisResult
-from app.services.explanation import build_explanation
-from app.services.groq_triage import run_groq_triage
-from app.services.ollama_triage import run_ollama_triage
-from app.services.rules_fallback import run_rules_fallback
-from app.services.safety import apply_safety_override
-from app.services.xray_processor import XRayProcessor
+from .models import TriageMode, TriageRequest, TriageResponse, XRayAnalysisResult
+from .services.explanation import build_explanation
+from .services.groq_triage import run_groq_triage
+from .services.ollama_triage import run_ollama_triage
+from .services.rules_fallback import run_rules_fallback
+from .services.safety import apply_safety_override
+from .services.xray_processor import XRayProcessor
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")

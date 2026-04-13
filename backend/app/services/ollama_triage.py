@@ -6,7 +6,7 @@ from typing import Any
 import requests
 from dotenv import load_dotenv
 
-from app.models import LlmTriageResult
+from ..models import LlmTriageResult
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 load_dotenv(BASE_DIR / ".env")
